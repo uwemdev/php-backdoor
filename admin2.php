@@ -1,4 +1,5 @@
 <?php
+// This is a shell. Use it with care.
 error_reporting(0);
 set_time_limit(0);
 @clearstatcache();

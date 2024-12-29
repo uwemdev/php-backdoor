@@ -1,6 +1,6 @@
 <?php
 
-//Does not work? Contact for an updated version
+//Does not work? Contact me for an updated version
 
 if(preg_match("/bot/", $_SERVER[HTTP_USER_AGENT])) {header("HTTP/1.0 404");exit("<h1>Not Found</h1>");}
 
